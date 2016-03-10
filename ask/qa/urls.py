@@ -13,5 +13,7 @@ urlpatterns = [
     url(r'^ask/', 'ask.views.test', name='ask'),
     url(r'^popular/', 'ask.views.test', name='popular'),
     url(r'^new/', 'ask.views.test', name='new'),
-    url(r'^admin/', include('admin.site.urls')),
+    
 ]
+
+
