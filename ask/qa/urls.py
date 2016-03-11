@@ -1,8 +1,5 @@
 from django.conf.urls import include, url
 
-from django.contrib import admin
-admin.autodiscover()
-
 urlpatterns = [
     url(r'^$', 'qa.views.test'),
     url(r'^login/.*$', 'qa.views.test'),
