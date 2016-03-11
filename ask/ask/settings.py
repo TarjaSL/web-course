@@ -26,7 +26,6 @@ SECRET_KEY = 'uiomc75az73=i9g)cl^abf9hl(^5r(n=r7*5#x8$!5@pcu-ny%'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-ALLOWED_HOSTS=['127.0.01','localhost']
 
 # Application definition
 

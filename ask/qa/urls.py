@@ -1,11 +1,6 @@
 from django.conf.urls import include, url
 
-urlpatterns = [
-    url(r'^$', 'qa.views.test'),
-    url(r'^login/.*$', 'qa.views.test'),
-    url(r'^signup/.*$', 'qa.views.test'),
-    url(r'^questions/\d+/$', 'qa.views.test'),
-    url(r'^ask/.*$', 'qa.views.test'),
-    url(r'^popular/.*$', 'qa.views.test'),
-    url(r'^new/.*$', 'qa.views.test'),
-]
+from qa.views import test
+urlpatterns = patterns('qa.views',
+url(r'^$', test),
+)
