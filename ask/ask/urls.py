@@ -5,6 +5,6 @@ admin.autodiscover()
 urlpatterns = [
     # Examples:
     # url(r'^$', 'ask.views.home', name='home'),
-    url(r'^', include('qa.urls')),
+    url(r'^', include('ask.qa.urls')),
     url(r'^admin/', include('admin.site.urls')),
 ]
